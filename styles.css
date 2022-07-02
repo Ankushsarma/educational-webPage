@@ -240,7 +240,7 @@ footer {
     border-bottom-width: 2px;
     background-color: white;
     left: -10px;
-    margin-left: 0;
+    margin: 0;
 }
 
 .email input:focus {
@@ -254,5 +254,12 @@ footer {
 @media (max-width: 667.98px) {
     .bg-image {
         right: -10px;
+    }
+}
+
+@media (max-width: 529.5px) {
+    .email button {
+        left: 0;
+        margin: 0;
     }
 }
