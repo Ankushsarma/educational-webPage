@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: 'Fascinate', cursive;
+    font-family: 'Prompt', sans-serif;
+}
+
+.navBtn {
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid rgb(255, 94, 0, 0.212);
+    border-radius: 50%;
+    background-color: rgba(255, 94, 0, 0.212);
+    width: 50px;
+    height: 50px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    transition: .4s all;
+}
+
+.nvaBtnDisplay {
+    display: flex;
+}
+
+.navBtn a {
+    margin: auto;
+    padding: 0;
+}
+
+.navBtn:hover {
+    background-color: orange;
+}
+
+#navbarNav {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.bg-dark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.bg-dark ul li a {
+    color: white !important;
+}
+
+.nav-link {
+    margin: 7px;
+}
+
+.jumbotron {
+    background: transparent;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    z-index: -4;
+    opacity: 100%;
+    right: -20px;
+}
+
+.white-bg {
+    background-color: aliceblue;
+    opacity: 50%;
+    top: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.container0 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container0 h1 {
+    color: rgb(34, 34, 34);
+    text-decoration: underline rgb(16, 20, 59);
+}
+
+.container02 {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont01 {
+    border-radius: 2%;
+    padding: 10px;
+    background-color: rgba(255, 238, 221, 0.623);
+    margin: 20px 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.cont01 i {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.container1 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    top: 100px;
+}
+
+.carousel {
+    position: relative;
+    top: 10px;
+    margin: auto;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.course {
+    position: relative;
+    margin-top: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.course h1 {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 50px;
+    background-color: black;
+}
+
+.footer {
+    padding: 15px !important;
+    color: aliceblue;
+    background-color: rgba(12, 12, 12, 0.849);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-content {
+    width: 230px;
+    margin: 10px;
+}
+
+.footer-content h4 {
+    margin-bottom: 25px;
+}
+
+.footer-content i {
+    font-size: 25px;
+    margin: 5px;
+    transition: .2s;
+}
+
+.footer-content p i {
+    font-size: 15px;
+}
+
+.footer-content p:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.footer-content i:hover {
+    cursor: pointer;
+    font-size: 28px;
+    color: antiquewhite;
+}
+
+.newslatter {
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.newslatter .text {
+    width: 40vw;
+}
+
+.newslatter .text h2 {
+    margin-bottom: 0;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 2px black;
+    width: 300px;
+    height: 50px;
+    padding: 5PX;
+}
+
+.email button {
+    position: relative;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 2px;
+    background-color: white;
+    left: -10px;
+    margin-left: 0;
+}
+
+.email input:focus {
+    border: 0;
+}
+
+.card {
+    box-shadow: .2px .2px .2px black;
+}
+
+@media (max-width: 667.98px) {
+    .bg-image {
+        right: -10px;
+    }
+}
